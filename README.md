@@ -6,3 +6,23 @@ It has some smarts: if the found text is in ALL CAPS / all lower / Title Case,
 the replacement will be formatted the same way.
 
 The default key bindings are Cmd+Alt+V (Mac) and Ctrl+Alt+V (Windows / Linux).
+
+To test it out, copy this text:
+
+> Foo FOO foo
+
+Hit (Cmd|Ctrl)+Alt+V and enter _"foo"_ for the first string and _"bar"_ for the
+second.
+
+You should see this pasted into the editor:
+
+> Bar BAR bar
+
+## TODO
+
+ 1. Handle camel/underscored/dashed/pascal case translation
+    _(e.g., "fooBar" to "foo-bar")_
+ 2. Increment numbers in subsequent pastes (so if you replace _1_ with _2_,
+    the next call should replace _1_ with _3_, assuming the text to be pasted
+    hasn't changed).
+ 3. Monetization strategy (what they used to call "Profit!").
