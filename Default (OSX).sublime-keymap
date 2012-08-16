@@ -1,0 +1,3 @@
+[
+    { "keys": ["super+alt+v"], "command": "prompt_paste_with_replace"}
+]
