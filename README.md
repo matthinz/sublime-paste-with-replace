@@ -20,9 +20,10 @@ You should see this pasted into the editor:
 
 ## TODO
 
- 1. Handle camel/underscored/dashed/pascal case translation
-    _(e.g., "fooBar" to "foo-bar")_
- 2. Increment numbers in subsequent pastes (so if you replace _1_ with _2_,
+ 1. Add a menu item.
+ 2. Handle camel/underscored/dashed/pascal case translation
+    _(e.g., "fooBar" to "foo-bar")_.
+ 3. Increment numbers in subsequent pastes (so if you replace _1_ with _2_,
     the next call should replace _1_ with _3_, assuming the text to be pasted
     hasn't changed).
- 3. Monetization strategy (what they used to call "Profit!").
+ 4. Monetization strategy (what they used to call "Profit!").

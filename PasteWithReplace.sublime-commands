@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Edit: Paste with Replace",
+        "command": "prompt_paste_with_replace"
+    }
+]
